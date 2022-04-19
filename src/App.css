@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+/* primary button */
+
+.primary-button {
+  border: 1px solid black;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  box-shadow: 4px 4px 0 0 red;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.sub-title{
+  font-size: 12px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* @media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+} */
+/* Navbar */
+
+.nav-link {
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-item {
+  padding-left: 10px;
+  padding-right:10px;
+}
+
+/* banner */
+
+.banner-section {
+  /* padding: 5% 0%; */
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
+}
+.social-icons {
+  padding: 5% 0%;
+}
+.social-icon {
+  margin: 0px 20px;
 }
 
-.App-link {
-  color: #61dafb;
+/* about */
+.about-section {
+  padding-bottom: 5%;
+}
+.about {
+  padding: 2% 0%;
+}
+.profile-pic {
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skills {
+  margin: 5% 0%;
 }
+.skill {
+  background-color: #000;
+  padding: 10px;
+  color: #fff;
+  margin: 5px;
+}
+
+/* project-section */
+.project {
+  padding: 3% 0%;
+}
+.project-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.project-image {
+  border-radius: 20px;
+}
+.project-image:hover {
+  box-shadow: 0px 10px 0 0 rgb(82, 80, 80);
+}
+/* 
+.project-section {
+  padding: 5% 0%;
+} */
