@@ -1,13 +1,13 @@
 import logo  from '../images/logo.png';
-import search from '../search.svg';
 
-import { NavLink } from "react-router-dom";
+
 
 function Header() {
+ 
   return (
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
+      <div class="container-fluid header">
         <a class="navbar-brand" href="#">
         <img src={logo}  alt="logo" height="50px" width="50px" />
         </a>
@@ -26,24 +26,17 @@ function Header() {
         <div  class="navbar-collapse collapse  " id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <NavLink
-                exact
-                activeClassName="active"
-                className="nav-link active"
-                to="/"
-              >
-                Home
-              </NavLink>
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <NavLink activeClassName="active" className="nav-link" to="/about">
-                About
-              </NavLink>
+            <a class="nav-link" href="#tech">Skills</a>
+              
             </li>
             <li class="nav-item">
-              <NavLink activeClassName="active" className="nav-link" to="/projects">
-                Projects
-              </NavLink>
+            <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
             </li>
           </ul>
          
@@ -56,6 +49,3 @@ function Header() {
 
 export default Header;
 
-{/* <a class="nav-item" href="#">
-            <img src={search}  alt="logo" height="20px" width="20px" />
-          </a> */}

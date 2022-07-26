@@ -1,17 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import  Header from './Components/Header.js';
-import  Footer  from './Components/Footer.js';
-import About from './Components/About.js';
-import Router from './Components/Router.js';
-
+import "./App.css";
+import Header from "./Components/Header.js";
+import Router from "./Components/Router.js";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
     <div>
+      <ScrollToTop
+        className="scrolltotop"
+        style={{ backgroundColor: "#75dbcd" }}
+      />
       <Header />
       <Router />
-     
     </div>
   );
 }
