@@ -1,14 +1,14 @@
-/* .header {
-  margin-left: 20%;
-} */
+* {
+  font-family: 'Lato', sans-serif;
+}
 
 .home {
   position: relative;
 }
 
-.highlight {
+/* .highlight {
   background: linear-gradient(to top, #75dbcd 50%, transparent 50%);
-}
+} */
 /* Particle container */
 
 .particle-container {
@@ -51,7 +51,7 @@
 /* banner */
 
 .banner {
-  /* padding-top: 10%; */
+  padding-top:10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,12 +60,14 @@
 
 .social-icons {
   padding: 5% 0%;
+  display: flex;
 }
-.social-icon {
-  margin: 0px 20px;
+.social-icon:hover {
+  color: #75dbcd;
 }
 .footer {
   color: #fff;
+  margin: 2% 0%;
 }
 /* .banner-button {
   text-align: center;

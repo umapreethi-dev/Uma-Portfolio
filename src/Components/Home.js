@@ -40,14 +40,14 @@ export default function Home() {
   return (
     <div className="container-fluid home">
       <div className=" row banner" id="text">
-        <div className="col-lg-6 col-md-8">
+        <div className="col-lg-6 col-md-8 mb-3">
         <h1 className="banner-maintext">
           Hi, <br></br>I'm Uma, <br></br>{" "}
           <spam className="highlight">Front-End Web Developer</spam>
         </h1>
         <div className="social-icons">
           <a href="https://github.com/umapreethi-dev" className="link1">
-            <BsGithub size={30} />
+            <BsGithub className="social-icon" size={30} />
           </a>
           <a
             href="https://www.linkedin.com/in/umapreethi-santhanakrishnan/"
@@ -75,7 +75,7 @@ export default function Home() {
           <div className="arrow"></div>
         </div>
         </div>
-        <div className="col-lg-6 col-md-4">
+        <div className="col-lg-6 col-md-4 mb-3">
         <img
             src={profpic}
             alt="pro-pic"
@@ -90,10 +90,10 @@ export default function Home() {
       </div> */}
 
       <div className="row tech-section gy-5" id="tech">
-        <div className="col">
+        <div className="col-lg-6">
           <h2>Technical Skills</h2>
         </div>
-        <div className="col">
+        <div className="col-lg-6">
           <TechStack />
         </div>
       </div>

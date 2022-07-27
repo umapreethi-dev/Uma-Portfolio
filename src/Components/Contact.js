@@ -6,9 +6,9 @@ export default function Contact() {
   return (
     <div>
       <h2>Let's Connect!</h2>
-      <div className="social-icons">
+      <div >
         <a href="https://github.com/umapreethi-dev" className="link1">
-          <BsGithub className="footer" size={30} />
+          <BsGithub className=" social-icon footer" size={30} />
         </a>
         <a
           href="https://www.linkedin.com/in/umapreethi-santhanakrishnan/"
