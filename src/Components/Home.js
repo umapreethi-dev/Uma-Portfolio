@@ -62,9 +62,11 @@ export default function Home() {
         </div>
         <div className="banner-content">
           <p>
-            A self-taught Front-End Developer skilled in HTML, CSS, JS, React
+            {/* A self-taught Front-End Developer skilled in HTML, CSS, JS, React
             and WordPress. <br></br>I am passionate about design and development of
-            website using modern technologies.
+            website using modern technologies. */}
+            I am a Front-End Developer currently open for new opportunities. I am mostly working with React, HTML,CSS and JS but I also know Node Js,Express and Databases.
+            I work great with team and what makes me unique is that I never give up, I will research,study and will try to solve the problem.
           </p>
         </div>
         <div className="banner-button">

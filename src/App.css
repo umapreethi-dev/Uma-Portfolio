@@ -162,10 +162,10 @@
     height: 100vh;
   }
   .banner-maintext {
-    font-size: 80px;
+    font-size: 3rem;
   }
   .banner-content {
-    font-size: 30px;
+    font-size: 1.5rem;
   }
   .testimonial-card {
     
@@ -189,10 +189,10 @@
     height: 100vh;
   }
   .banner-maintext {
-    font-size: 80px;
+    font-size: 3rem;
   }
   .banner-content {
-    font-size: 30px;
+    font-size: 1.5rem;
   }
   .testimonial-card {
     border-radius: 50px 0px !important;
