@@ -17,7 +17,7 @@ export default function Contact() {
           <BsLinkedin className="social-icon footer" size={30} />
         </a>
         <a href="mailto:umapreethi123.up@gmail.com" className="link1">
-          {" "}
+         
           <MdEmail className="social-icon footer" size={30} />
         </a>
       </div>

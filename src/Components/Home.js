@@ -9,6 +9,7 @@ import Testimonial from "./Testimonials";
 import TechStack from "./TechStack";
 import testData from "./Testimonial-data";
 import Contact from "./Contact";
+import profpic from "../images/Umapreethi_santhanakrishnan.jpg";
 
 export default function Home() {
   const project = data.map((item) => {
@@ -19,6 +20,7 @@ export default function Home() {
         skill={item.skill}
         content={item.content}
         view={item.view}
+        live={item.live}
         github={item.github}
         img={item.img}
         bgColor={item.color}
@@ -37,7 +39,8 @@ export default function Home() {
 
   return (
     <div className="container-fluid home">
-      <div className=" banner" id="text">
+      <div className=" row banner" id="text">
+        <div className="col-lg-6 col-md-8">
         <h1 className="banner-maintext">
           Hi, <br></br>I'm Uma, <br></br>{" "}
           <spam className="highlight">Front-End Web Developer</spam>
@@ -53,30 +56,40 @@ export default function Home() {
             <BsLinkedin className="social-icon" size={30} />
           </a>
           <a href="mailto:umapreethi123.up@gmail.com" className="link1">
-            {" "}
+            
             <MdEmail className="social-icon" size={30} />
           </a>
         </div>
         <div className="banner-content">
           <p>
             A self-taught Front-End Developer skilled in HTML, CSS, JS, React
-            and WordPress. I am passionate about design and development of
+            and WordPress. <br></br>I am passionate about design and development of
             website using modern technologies.
           </p>
         </div>
         <div className="banner-button">
-          <a href="#tech" className="explore">
-            EXPLORE
+          <a href="#projects" className="explore">
+            See My Work
             <BiDownArrowCircle size={30} />
           </a>
           <div className="arrow"></div>
         </div>
+        </div>
+        <div className="col-lg-6 col-md-4">
+        <img
+            src={profpic}
+            alt="pro-pic"
+            
+            className="img-fluid profile-pic"
+          ></img>
+        </div>
+        
       </div>
-      <div className="particle-container">
+      {/* <div className="particle-container">
         <ParticleBackground />
-      </div>
+      </div> */}
 
-      <div className="row tech-section" id="tech">
+      <div className="row tech-section gy-5" id="tech">
         <div className="col">
           <h2>Technical Skills</h2>
         </div>
@@ -84,7 +97,7 @@ export default function Home() {
           <TechStack />
         </div>
       </div>
-      <div className="row project-section" id="projects">
+      <div className="row project-section gx-0" id="projects">
         <h2 className="heading">Projects</h2>
         <div className="row">{project}</div>
       </div>

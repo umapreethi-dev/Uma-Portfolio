@@ -11,7 +11,7 @@ function Header() {
         <a class="navbar-brand" href="#">
         <img src={logo}  alt="logo" height="50px" width="50px" />
         </a>
-        <span class="navbar-brand">Umapreethi Santhanakrishnan</span>
+        {/* <span class="navbar-brand">Umapreethi Santhanakrishnan</span> */}
         <button
           class="navbar-toggler"
           type="button"

@@ -19,10 +19,10 @@ export default function Projects(props) {
             <h5 class="card-title">{props.title}</h5>
             <p class="card-text">{props.content}</p>
             <p>{props.skill}</p>
-            <a href="#" className="link1">
+            <a href={props.live} className="link1">
               Live Website <FaLongArrowAltRight />
             </a>
-            <a href="#" className="link2">
+            <a href={props.github} className="link2">
               Github <FaLongArrowAltRight />
             </a>
           </div>
