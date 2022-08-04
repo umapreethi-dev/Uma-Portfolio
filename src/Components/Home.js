@@ -2,6 +2,7 @@ import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BiDownArrowCircle } from "react-icons/bi";
 import { MdEmail } from "react-icons/md";
+import { FaLongArrowAltRight } from "react-icons/fa";
 import Projects from "./Projects";
 import data from "./ProjectData";
 import ParticleBackground from "./ParticleBackground";
@@ -102,6 +103,11 @@ export default function Home() {
       <div className="row project-section gx-0" id="projects">
         <h2 className="heading">Projects</h2>
         <div className="row">{project}</div>
+        <div className="row">
+          <a href="https://newsletter-template-1.vercel.app/" className="project-button">Email template-1 <FaLongArrowAltRight size={30} /></a>
+          <a href="https://newsletter-template-5.vercel.app/" className="project-button">Email template-2 <FaLongArrowAltRight size={30} /></a>
+          <a href="https://newsletter-template-3.vercel.app/" className="project-button">Email template-3 <FaLongArrowAltRight size={30} /></a></div>
+        <div className="row "><a href="https://github.com/umapreethi-dev" className="project-button">View More Projects <FaLongArrowAltRight size={30} /></a></div>
       </div>
       <div className="row testimonial-section" id="testimonials">
         <h2 className="heading">Testimonials</h2>
